@@ -1,6 +1,6 @@
 allow_embedding: false
-name: Material Design 1
-package_name: Material_Design_1
+name: test_no_dep
+package_name: test_no_dep
 runtime_options:
   client_version: '3'
   server_spec: {base: python310-minimal}
