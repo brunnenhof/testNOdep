@@ -1,4 +1,8 @@
 allow_embedding: false
+dependencies:
+- dep_id: dep_5x44ls2t0g6gh
+  resolution_hints: {app_id: 4UK6WHQ6UX7AKELK, name: Material 3 Theme, package_name: m3}
+  version: {version_tag: v1.2.6}
 name: test_no_dep
 package_name: test_no_dep
 runtime_options:
