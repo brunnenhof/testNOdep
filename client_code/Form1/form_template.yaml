@@ -34,6 +34,14 @@ components:
     name: down
     properties: {icon: 'fa:download', text: Add a randoM number}
     type: Button
+  - event_bindings: {change: dropdown_menu_1_change}
+    layout_properties: {grid_position: 'MKELPB,ZFFGIZ'}
+    name: dropdown_menu_1
+    properties:
+      items: ['1', '2', '3', '4', '5']
+      label: ddm-label
+      placeholder: ddm
+    type: form:dep_5x44ls2t0g6gh:_Components.DropdownMenu
   layout_properties: {slot: default}
   name: content_panel
   properties: {}
