@@ -9,7 +9,7 @@ class Form1(Form1Template):
     # Any code you write here will run before the form opens.
     self.label_2.text = 0
     self.label_4.text = 0
-    self.label_6.text = 0
+    self.label_6.text = 0 
 
   def press_me_click(self, **event_args):
     """This method is called when the button is clicked"""
